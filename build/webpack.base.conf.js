@@ -30,9 +30,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.vue$/,
+        test: /\.vue$/,test: /\.vue$/,
         loader: 'vue-loader',
-        options: vueLoaderConfig
+        options: {
+          loaders: {
+            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
+          }
+        }
       },
       {
         test: /\.js$/,
