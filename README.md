@@ -1,6 +1,6 @@
 # A responsive magazine mock-up with CSS
 
-If you need a solution for a dynamicaly rendered magazine cover image you may find this snippet helpful. It is build as a reusable and responsive Vue component.
+If you need a solution for a dynamicaly rendered magazine cover image you may find this snippet helpful. It is built as a reusable and responsive Vue component.
 
 ## Used Tech: 
  - Vue 2
